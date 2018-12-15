@@ -3,7 +3,9 @@ import lombok.extern.java.Log;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -11,7 +13,7 @@ import java.util.stream.Stream;
 public class ChronalCalibrationImpl implements ChronalCalibration
 {
 
-    public static String filePath = "src\\main\\resources\\input_day1_1";
+    public static String filePath = "src\\main\\resources\\input_day1";
 
     public static void main(String[] args)
     {

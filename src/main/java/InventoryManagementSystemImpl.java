@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 @Log
 public class InventoryManagementSystemImpl implements InventoryManagementSystem
 {
-    public static String filePath = "src\\main\\resources\\input_day2_1";
+    public static String filePath = "src\\main\\resources\\input_day2";
 
     public static void main(String[] args)
     {
